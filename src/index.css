@@ -1,0 +1,39 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: 1px solid red;
+  }
+
+  .search-engine{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   border: 1px solid yellow;
+  }
+
+  .city-search{
+   outline: none;
+   background-color: white;
+   font-size: 16px;
+   padding: 13px;
+   border: 1px solid blue;
+   width: 20%;
+   border-radius: 10px;
+   padding-inline-start: 10px;
+  }
+
+  .search-button{
+   cursor: pointer;
+   margin-left: 5px;
+   padding: 12px;
+   font-size: 16px;
+   border-radius: 9px;
+   background-color: cadetblue;
+   outline: none;
+   color: aliceblue;
+  }

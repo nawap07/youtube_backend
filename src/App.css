@@ -1,0 +1,19 @@
+  
+  
+/* 
+ const passwordGenerater=useCallback(()=>{
+   let pass="";
+   let str="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+   if(number) str += "0987654321";
+   if(chracter) str += "`~!@#$%^&*(){}[]";
+
+   for(let i=1;i<=length;i++){
+       let chr=Math.floor(Math.random() * str.length + 1);
+       pass+= str.charAt(chr);
+   }
+   setPassword(pass);
+},[length,number,chracter,setPassword])
+
+useEffect(()=>{
+   passwordGenerater();
+},[length,number,chracter,passwordGenerater]); */
