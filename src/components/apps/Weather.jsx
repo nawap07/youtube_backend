@@ -9,7 +9,7 @@ const Weather = () => {
   async function handleWeathetData(parems) {
     setLoading(true);
     try {
-      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${parems}&appid=5180df8982c7a73614daf1bd0326e314`);
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?query=${search}&appid=5180df8982c7a73614daf1bd0326e314`);
       const data = await response.json();
       if (data) {
         setWeatherData(data);
